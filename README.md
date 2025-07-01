@@ -1,12 +1,58 @@
-# React + Vite
+# Portfolio 2.0
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, animated, and fully responsive developer portfolio built with React and Vite.
 
-Currently, two official plugins are available:
+## Features
+- Animated particle background
+- Theme toggle (Default, Blue, Pink, Green, White)
+- Smooth navigation and scroll
+- Hero section with social links and CV download
+- About, Skills, Projects, Awards, and Contact sections
+- Contact form with mailto integration
+- Fully mobile responsive and accessible
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Tech Stack
+- React 19
+- Vite
+- Tailwind CSS
+- OGL (for animated background)
 
-## Expanding the ESLint configuration
+## Getting Started
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### 1. Clone the repository
+```bash
+git clone https://github.com/yourusername/Portfolio2.0.git
+cd Portfolio2.0
+```
+
+### 2. Install dependencies
+```bash
+npm install
+```
+
+### 3. Run the development server
+```bash
+npm run dev
+```
+
+### 4. Build for production
+```bash
+npm run build
+```
+
+### 5. Preview production build
+```bash
+npm run preview
+```
+
+## Deployment
+- Deploy the `dist` folder to Vercel, Netlify, or your preferred static host.
+- Set up a custom domain if desired.
+
+## Customization
+- Replace `/public/Logo.svg` with your own logo.
+- Update `/public/JenishShah_CV.pdf` with your own CV.
+- Edit content in the `src/Component/` files to personalize sections.
+
+## License
+MIT
